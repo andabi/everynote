@@ -1,0 +1,9 @@
+{% if notes %}
+<ul>
+    {% for note in notes %}
+    <li>{{note}}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No notes</p>
+{% endif %}
